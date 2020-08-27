@@ -24,5 +24,9 @@
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4",
     "vue-template-compiler": "^2.6.12"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
   }
+
 }
