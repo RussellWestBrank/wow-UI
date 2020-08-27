@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RussellWestBrank/wow-UI.git"
-  },
+  "repository": "git+https://github.com/RussellWestBrank/wow-UI.git",
   "keywords": [
     "vue",
     "ui"
@@ -21,6 +18,11 @@
   },
   "homepage": "https://github.com/RussellWestBrank/wow-UI#readme",
   "dependencies": {
-    "vue": "^2.6.12"
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-template-compiler": "^2.6.12"
   }
 }
