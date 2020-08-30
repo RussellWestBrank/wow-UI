@@ -1,6 +1,11 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div class="wrapper" :class="{error}">
-    <input :value="value" type="text" :disabled="disabled" :readonly="readonly">
+    <input :value="value" type="text" :disabled="disabled" :readonly="readonly"
+           @change="$emit('change', $event)"
+           @input="$emit('input', $event)"
+           @focus="$emit('focus', $event)"
+           @blur="$emit('blur', $event)"
+    >
     <template v-if="error">
       <icon name="error" class="icon-error"></icon>
       <span class="errorMessage">{{error}}</span>
@@ -11,7 +16,7 @@
   import Icon from './icon'
   export default {
     components: {Icon},
-    name: 'GuluInput',
+    name: 'WowInput',
     props: {
       value: {
         type: String
