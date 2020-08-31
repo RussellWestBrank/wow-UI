@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/wow-UI/',
   title: '马赛克 UI',
   description: '一个好用的UI框架',
   themeConfig: {
@@ -17,7 +18,9 @@ module.exports = {
 
       {
         title: '组件',
-        children: [ '/components/button' ]
+        children: [ '/components/button',
+                    '/components/input'
+        ]
       },
 
     ]
