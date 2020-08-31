@@ -2,7 +2,9 @@ module.exports = {
   base:'/wow-UI/',
   title: '马赛克 UI',
   description: '一个好用的UI框架',
+  home: true,
   themeConfig: {
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
